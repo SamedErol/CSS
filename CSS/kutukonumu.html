@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            border-color: indianred;
+            border-style: solid;
+        }
+
+        #buyuk {
+            width: 200px;
+            height: 100px;
+            background-color: yellow;
+            position: fixed;
+            right: 30px;
+            bottom: 10px;
+        }
+
+        #kucuk {
+            width: 100px;
+            height: 50px;
+            background-color: green;
+            position: absolute; /* kutu içinde kutu olanları yönetmek için kullanılır absolute. */
+            left: 10px;
+            top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="buyuk">
+        <div id="kucuk"></div>
+    </div>
+</body>
+
+</html>
